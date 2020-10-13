@@ -236,7 +236,7 @@
                 android:background="@color/orange"
                 android:onClick="numberEvent"
 
-                android:text="AC"></Button>
+                android:text="0"></Button>
             <Button
                 android:id="@+id/Punto"
                 android:layout_width="30pt"
