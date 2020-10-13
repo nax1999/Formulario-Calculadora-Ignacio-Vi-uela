@@ -9,8 +9,8 @@
 
     <EditText
         android:id="@+id/editText"
-        android:layout_width="685dp"
-        android:layout_height="96dp"
+        android:layout_width="412dp"
+        android:layout_height="256dp"
         android:layout_marginBottom="1pt"
         android:layout_weight="1"
         android:background="@color/white"
@@ -27,8 +27,8 @@
 
     <TableLayout
         android:id="@+id/tableLayout3"
-        android:layout_width="685dp"
-        android:layout_height="263dp"
+        android:layout_width="412dp"
+        android:layout_height="344dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -44,6 +44,7 @@
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_weight="1"
+                android:onClick="acEvent"
                 android:background="@color/orange"
 
                 android:text="AC"></Button>
@@ -54,6 +55,8 @@
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:background="@color/orange"
+                android:onClick="numberEvent"
+
 
                 android:text="+/-"></Button>
 
@@ -63,6 +66,7 @@
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:background="@color/orange"
+                android:onClick="OperatorEvent"
 
                 android:text="/"></Button>
 
@@ -72,6 +76,7 @@
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:background="@color/orange"
+                android:onClick="OperatorEvent"
 
                 android:text="X"></Button>
 
@@ -118,6 +123,7 @@
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:background="@color/orange"
+                android:onClick="percentEvent"
 
                 android:text="%"></Button>
 
@@ -164,6 +170,7 @@
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:background="@color/orange"
+                android:onClick="OperatorEvent"
 
                 android:text="+"></Button>
 
@@ -210,6 +217,7 @@
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:background="@color/orange"
+                android:onClick="OperatorEvent"
 
                 android:text="-"></Button>
 
@@ -229,7 +237,6 @@
                 android:onClick="numberEvent"
 
                 android:text="AC"></Button>
-
             <Button
                 android:id="@+id/Punto"
                 android:layout_width="30pt"
@@ -245,6 +252,7 @@
                 android:layout_height="30pt"
                 android:layout_weight="1"
                 android:background="@color/orange"
+                android:onClick="EqualEvent"
 
                 android:text="="></Button>
 
